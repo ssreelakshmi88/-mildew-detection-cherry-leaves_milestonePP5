@@ -61,7 +61,7 @@ def page_leaves_visualizer_body():
         my_data_dir = 'inputs/cherryleaves_dataset/cherry-leaves'
         labels = os.listdir(my_data_dir + '/validation')
         label_to_display = st.selectbox(
-            label="Select label", options=labels, index=0)
+            label="Select label:", options=labels, index=0)
         if st.button("Create Montage"):
             image_montage(dir_path=my_data_dir + '/validation',
                           label_to_display=label_to_display,
@@ -75,7 +75,7 @@ def image_montage(dir_path, label_to_display, nrows, ncols, figsize=(15, 10)):
     labels = os.listdir(dir_path)
 
     # checks if your montage space is greater than subset size
-    images_list = os.listdir(dir_path + '/' + label_to_display)
+    images_list = os.listdir(str(dir_path) + '/' + str(label_to_display))
     if nrows * ncols < len(images_list):
         img_idx = random.sample(images_list, nrows * ncols)
 
