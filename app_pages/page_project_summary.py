@@ -14,7 +14,7 @@ def page_project_summary_body():
         f" effects on the life of the host plant reducing plant harvest."
     )
 
-    st.info(
+    st.warning(
         f"**Project Dataset**\n\n"
         f"\n The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).\n"
         f"The available dataset contains 2104 healthy leaves and 2104 affected leaves. "
@@ -29,4 +29,4 @@ def page_project_summary_body():
 
     st.write(
         f"For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/ssreelakshmi88/mildew-detection-cherry-leaves_milestonePP5/edit/main/README.md).")
+        f"[Project README file](https://github.com/ssreelakshmi88/mildew-detection-cherry-leaves_milestonePP5.git).")
