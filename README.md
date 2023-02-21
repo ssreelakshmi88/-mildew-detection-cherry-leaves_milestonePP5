@@ -115,6 +115,7 @@ My dashboard consists of a side navigation bar linking to 5 different pages. The
 
      - Link to download a set of healthy and not healthy leaves images for live prediction.
      - User Interface with a file uploader widget. The user should upload leaves images. It will display the image and a prediction statement, indicating if the leaf is healthy or not.
+     
      - Table with image name and prediction results.
 
      - Download button to download table.
