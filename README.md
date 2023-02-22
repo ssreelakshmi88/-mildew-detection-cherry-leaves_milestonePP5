@@ -5,6 +5,9 @@ Cherry leaves mildew detector is a predictive analysis app that predicts if cher
 This app is constructed based on supervised, single-label, binary classification ML model. Binary classifier is used to predict whether a particular cherry leaf is healthy or contains powdery mildew.
 
 
+![Responsive image](https://user-images.githubusercontent.com/97182442/220570723-07236fbb-b8a5-4b07-ade5-daebadf40371.jpg)
+
+
 ## Dataset Content
 
 - The dataset is sourced from Kaggle. We created them a fictitious user story where predictive analytics can be applied in a real project in the workplace.
@@ -74,6 +77,9 @@ This app is constructed based on supervised, single-label, binary classification
 
 Wireframes have been used for designing the layout of dashboard. Wireframes can be found here:
 
+
+
+
 A dashboard is set to present the models and data to the client.
 
 My dashboard consists of a side navigation bar linking to 5 different pages. The details of the pages are as follows:
@@ -100,6 +106,10 @@ My dashboard consists of a side navigation bar linking to 5 different pages. The
     - The client is interested to predict if a cherry leaf is healthy or contains powdery mildew.
 
 
+
+![Project Summary](https://user-images.githubusercontent.com/97182442/220570941-99e3e5ff-3002-419a-8613-01b27e3df6f1.jpg)
+
+
 #### Page 2: Leaves Visualizer
 
 - Business requirement 1
@@ -107,6 +117,24 @@ My dashboard consists of a side navigation bar linking to 5 different pages. The
      - Checkbox 1 - Difference between average and variability image
 	 - Checkbox 2 - Difference between average healthy and infected leaves
 	 - Checkbox 3 - Image Montage
+
+![Leaves Visualizer](https://user-images.githubusercontent.com/97182442/220571007-5008e34a-25b9-466c-a8a7-3adc6f040b24.jpg)
+
+
+![Average and variability image](https://user-images.githubusercontent.com/97182442/220571183-580af90f-673d-401c-b6fb-6d65d148c255.jpg)
+
+
+
+![Average healthy and infected leaves](https://user-images.githubusercontent.com/97182442/220571261-53507a4d-ca0e-4f4e-8f33-3ad54e21cac0.jpg)
+
+
+
+
+![Image montage_healthy](https://user-images.githubusercontent.com/97182442/220571339-84495978-4955-47c6-8ba3-ae32b2c9a052.jpg)
+
+
+
+![Image montage_powdery mildew](https://user-images.githubusercontent.com/97182442/220571372-7946fdb3-cf97-4b46-8d59-6460e729ec99.jpg)
 
 
 #### Page 3: Powdery Mildew Detector
@@ -120,9 +148,18 @@ My dashboard consists of a side navigation bar linking to 5 different pages. The
 
      - Download button to download table.
 
+
+![Mildew detector page](https://user-images.githubusercontent.com/97182442/220571082-e97588fa-361e-4fe4-9873-c03b159486fb.jpg)
+
+![Prediction](https://user-images.githubusercontent.com/97182442/220571458-8b48479d-b78c-445c-812e-f9b92c7e032d.jpg)
+
 #### Page 4: Project Hypothesis and Validation
 
 - This page displays the project hypothesis and the validation.
+
+
+![Hypothesis and Validation](https://user-images.githubusercontent.com/97182442/220571541-4cc0652b-98ee-47bf-ae9d-bd8081d76f7c.jpg)
+
 
 #### Page 5: ML Performance Metrics
 
@@ -137,12 +174,18 @@ My dashboard consists of a side navigation bar linking to 5 different pages. The
 •	Test - powdery_mildew: 422 images
 
 
+![Label frequencies](https://user-images.githubusercontent.com/97182442/220571590-063effb7-458a-475f-b204-d64f84495897.jpg)
+
+
 **Model History - Accuracy and Losses**
 
+![Model History](https://user-images.githubusercontent.com/97182442/220571610-fa8ca470-25fb-4075-81bf-8d9f7021a6e5.jpg)
 
 
 **Model Evaluation result**
 
+
+![Generalized performance](https://user-images.githubusercontent.com/97182442/220571774-c9e52a95-09f5-42ae-8e08-a18c02500db6.jpg)
 
 ## Technologies Used
 
@@ -191,11 +234,6 @@ Following are the list of libraries used in the project
 
 - The slug size was also too large. So I added the extra large files in .slugignore file.
 
-
-
-#### Unfixed bugs
-
-## Deployment
 
 ### Heroku
 
