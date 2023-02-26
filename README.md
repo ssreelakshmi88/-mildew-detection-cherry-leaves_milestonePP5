@@ -262,9 +262,9 @@ Following are the list of libraries used in the project
 
 ## Credits
 
-- Code Institute Malaria Walk Through Project: The code and design was taken from  Code-Institute-Org/WalkthroughProject01. I only made minor changes. This project helped me to understand the concept of Machine Learning and Data Analytics.
+- [Code Institute Malaria Walk Through Project](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/) : The code and design was taken from  Code-Institute-Org/WalkthroughProject01. I only made minor changes. This project helped me to understand the concept of Machine Learning and Data Analytics.
 
-- GyanShashwat1611/WalkthroughProject01 github repository was used for code reference and assistance for in the jupyter notebook set up, code and execution; as well as for the app pages design, set up and code
+- [GyanShashwat1611/WalkthroughProject01](https://github.com/GyanShashwat1611/WalkthroughProject01) github repository was used for code reference and assistance for in the jupyter notebook set up, code and execution; as well as for the app pages design, set up and code
 
 - HaimanotA/Instant-Mildew-Detector github repository was used for app pages code reference and readme guidance.
 
