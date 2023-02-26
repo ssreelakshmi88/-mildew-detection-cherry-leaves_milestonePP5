@@ -268,7 +268,7 @@ Following are the list of libraries used in the project
 
 - HaimanotA/Instant-Mildew-Detector github repository was used for app pages code reference and readme guidance.
 
-- alerebal/Powdery Mildew in Cherry Leaves Detector: Readme guidance
+- [alerebal/Powdery Mildew] (https://github.com/Code-Institute-Submissions/milestone-project-mildew-detection-in-cherry-leaves.git) in Cherry Leaves Detector: Readme guidance
 
 ### Content
 
@@ -281,6 +281,8 @@ Following are the list of libraries used in the project
 ### Acknowledgements
 
 My mentor **Precious Ijege** for support and guidance.
+
+Code Institute slack community
 
 
 
