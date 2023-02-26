@@ -247,7 +247,7 @@ Following are the list of libraries used in the project
 - The slug size was also too large. So I added the extra large files in .slugignore file.
 
 
-### Heroku
+### Deployment
 
 1. The App live link is: https://cherry-leaf-mildew-detector.herokuapp.com/
 
