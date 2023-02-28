@@ -15,6 +15,17 @@ This app is designed based on a supervised, single-label, binary classification 
 
 - The dataset contains more than 4000 images of healthy or diseased cherry leaves taken from Farmy & Foods crop fields. Diseased cherry leaves contain powdery mildew, a fungal disease that affects a wide range of plants. This is a serious concern for the company since it can compromise their product quality. 
 
+The dataset is available at this link: https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
+
+
+![Kaggle dataset](https://user-images.githubusercontent.com/97182442/221985095-96a6e877-5562-426e-b70b-a4eb8750e07f.jpg)
+
+
+
+
+![kaggle dataset_cherryleaves](https://user-images.githubusercontent.com/97182442/221985173-a70f2577-94f6-49ef-a1a2-0027394656c9.jpg)
+
+
 ## Business Requirements
 
 - Farmy & Foods is facing a challenge with the presence of powdery mildew infection in their cherry plantation. Currently, leaves are manually checked to verify if a particular cherry tree is infected with powdery mildew or not. This time-consuming process takes around 30 minutes for each tree. The infected leaves are then treated with a specific compound to eliminate infection. The time required for this treatment is around 1 minute. With thousands of cherry trees located in multiple farms spread across the country, this detection process is highly inefficient.of cherry trees located in multiple farms across the country. As a result, this manual process is not scalable due to time spent in the manual process inspection.
@@ -37,8 +48,9 @@ The client is interested in developing an app that can
 
 - An Image Montage can define a typical powdery mildew leaf based on the presence of fine white marks. On the other hand, studies based on Average Image, Variability Image, and Difference between Averages didn't reveal any clear pattern to differentiate leaves.
 
+
 - The ML model will be able to distinguish between a healthy and an infected cherry leaf with at least 97% accuracy.
--
+
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
 
