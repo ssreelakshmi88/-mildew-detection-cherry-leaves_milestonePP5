@@ -1,8 +1,8 @@
 # Powdery Mildew in Cherry Leaves Detector
 
-Cherry leaves mildew detector is a predictive analysis app that predicts if cherry leaves are healthy or they contain powdery mildew. In this app the input data is an image of cherry leaf and the output indicates whether it is a healthy or an infected leaf.
+Powdery mildew detector is an app that can predict if cherry leaves are healthy or they contain powdery mildew. The app makes prediction, based on an image of a cherry leaf, whether it is a healthy or an infected leaf.
 
-This app is constructed based on supervised, single-label, binary classification ML model. Binary classifier is used to predict whether a particular cherry leaf is healthy or contains powdery mildew.
+This app is designed based on a supervised, single-label, binary classification ML model. Binary classifier is used to predict the outcome.
 
 
 ![Responsive image](https://user-images.githubusercontent.com/97182442/220570723-07236fbb-b8a5-4b07-ade5-daebadf40371.jpg)
@@ -10,33 +10,38 @@ This app is constructed based on supervised, single-label, binary classification
 
 ## Dataset Content
 
-- The dataset is sourced from Kaggle. We created them a fictitious user story where predictive analytics can be applied in a real project in the workplace.
+- Image dataset is retrieved from Kaggle. In this project, we created a fictitious user story to apply predictive analytics which can be extrapolated to a real world situation.
 
-- The dataset contains +4 thousand images taken from Farmy & Foods crop fields. The images show cherry leaves that are healthy and cherry leaves that contain powdery mildew, which is a fungal disease that affects a wide range of plants. The cherry plantation crop is one of their finest products in the portfolio and the company is concerned about supplying the market with a product of compromised quality.
 
+- The dataset contains more than 4000 images of healthy or diseased cherry leaves taken from Farmy & Foods crop fields. Diseased cherry leaves contain powdery mildew, a fungal disease that affects a wide range of plants. This is a serious concern for the company since it can compromise their product quality. 
 
 ## Business Requirements
 
-- The cherry plantation crop from Farmy & Foods is facing a challenge where their cherry plantations have been presenting powdery mildew. Currently, the leaves are manually verified if a particular cherry tree is infected with powdery mildew or not. The manual process is time-consuming as it takes around 30 minutes for each tree. The infected leaves are treated with a specific compound to kill the fungus. The time required for this treatment is around 1 minute. The company has thousands of cherry trees located in multiple farms across the country. As a result, this manual process is not scalable due to time spent in the manual process inspection.
+- Farmy & Foods is facing a challenge with the presence of powdery mildew infection in their cherry plantation. Currently, leaves are manually checked to verify if a particular cherry tree is infected with powdery mildew or not. This time-consuming process takes around 30 minutes for each tree. The infected leaves are then treated with a specific compound to eliminate infection. The time required for this treatment is around 1 minute. With thousands of cherry trees located in multiple farms spread across the country, this detection process is highly inefficient.of cherry trees located in multiple farms across the country. As a result, this manual process is not scalable due to time spent in the manual process inspection.
 
-- To save time in this process, the IT team suggested an ML system that is capable of detecting instantly, using a leaf tree image, if it is healthy or has powdery mildew. A similar manual process is in place for other crops for detecting pests, and if this initiative is successful, there is a realistic chance to replicate this project to all other crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
+- To increase efficiency, the IT team suggested establishing a ML system that is capable of differentiating healthy or powdery mildew infected leaf based on images. This initiative, if successful, can be extended to rapidly detect and treat other infected crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
 
-     - i. The client is interested in conducting a study to visually differentiate a cherry leaf that is healthy and that contains powdery mildew.
+The client is interested in developing an app that can
 
-     - ii. The client is interested to predict if a cherry leaf is healthy or contains powdery mildew.
+
+   i. differentiate healthy and powdery mildew cherry leaves based on images.
+
+   ii. predict, based on an image, if the leaf can be classified as a healthy or infected.
 
 
 ## Hypothesis and how to validate?
 
 ### Hypothesis
 
-- We believe powdery mildew leaves have particular marks/signs; typically, the leaves are light roughly-circular, powders-looking patches on young, susceptible leaves that can easily differentiated from healthy leaves.
+- A leaf affected by powdery mildew exhibits several features that can differentiate them from healthy ones. Typical characteristics of infected leaf include display of particular marks/signs and morphological changes.  For example, leaves being light in color and roughly-circular. Additional indistinguishable feature is the presence of powder-looking patches on young and susceptible leaves. 
 
-- An Image Montage shows that typically powdery mildew leaves have fine white marks across. Average Image, Variability Image, and Difference between Averages studies didn't reveal any clear pattern to differentiate one from another.
+- An Image Montage can define a typical powdery mildew leaf based on the presence of fine white marks. On the other hand, studies based on Average Image, Variability Image, and Difference between Averages didn't reveal any clear pattern to differentiate leaves.
 
-- The ML model will be able to distinguish between a healthy cherry leaf and an infected cherry leaf with at least 97% accuracy.
+- The ML model will be able to distinguish between a healthy and an infected cherry leaf with at least 97% accuracy.
+-
 
 ## Rationale to map the business requirements to the Data Visualizations and ML tasks
+
 
 ### Business Requirement 1: Data visualisation
 
@@ -57,9 +62,9 @@ This app is constructed based on supervised, single-label, binary classification
 ## ML Business Case
 
 
-- From the given dataset of images, we want to construct an supervised, single-label, binary classification ML model to predict if a leaf contains powdery mildew.
+- From the given dataset of images, we want to construct a supervised, single-label, binary classification ML model to predict if a leaf contains powdery mildew.
 
-- The purpose of this is to provide the client a faster and reliable diagnostic if a given leaf has powdery patches thereby confirming the cherry plants are not healthy.
+- The purpose of this model is to provide a faster and reliable diagnostic app to screen if a given leaf has powdery patches thereby confirming the cherry plants are not healthy.
 
 - Currently the disease is identified manually and it takes around 30 times for each tree. The process is very time-consuming and it is not scalable.
 
@@ -67,7 +72,7 @@ This app is constructed based on supervised, single-label, binary classification
 
 - The success metric has been set at 97% accuracy on the test set or above.
 
-- The company will benefit by not supplying the market with a product of poor quality through the creation of this mode.
+- The company will benefit by improving the quality of their product.
 
 - The training data can be found from Kaggle. This contains 4208 Images. All images are uniformed at (256,256,256,3). To ensure the performance is not affected we will reduce the image shape to something around 50x50.
 
