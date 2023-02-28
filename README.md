@@ -5,6 +5,10 @@ Powdery mildew detector is an app that can predict if cherry leaves are healthy 
 This app is designed based on a supervised, single-label, binary classification ML model. Binary classifier is used to predict the outcome.
 
 
+
+[View live project here](https://cherry-leaf-mildew-detector.herokuapp.com/)
+
+
 ![Responsive image](https://user-images.githubusercontent.com/97182442/220570723-07236fbb-b8a5-4b07-ade5-daebadf40371.jpg)
 
 
