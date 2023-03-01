@@ -1,5 +1,7 @@
 import streamlit as st
 
+# This class generates multiple streamlit pages
+
 
 class MultiPage:
     """ This class generates multiple Streamlit pages

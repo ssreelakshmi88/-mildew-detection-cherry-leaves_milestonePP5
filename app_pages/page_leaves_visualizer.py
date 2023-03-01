@@ -15,11 +15,12 @@ def page_leaves_visualizer_body():
     st.header("Cherry Leaves Visualizer")
 
     st.success(
-        f"This page will provide a visual reference of the difference between a **healthy** Cherry Leaf "
+        f"This page will provide a visual reference of the difference "
+        f"between a **healthy** Cherry Leaf "
         f"and a Cherry Leaf infected with **powdery mildew**.\n\n"
     )
     version = 'v1'
-    if st.checkbox("Differences between average and variability in images"):
+    if st.checkbox("Differences between average and variability images"):
 
         avg_var_healty = plt.imread(f"outputs/{version}/avg_var_healthy.png")
         avg_var_powdery_mildew = plt.imread(
@@ -43,7 +44,7 @@ def page_leaves_visualizer_body():
         st.success(
             f"* We appreciate similar pattern here, where the healthy leaves have a "
             f"more clear, green surface, and the infected ones have more white color in "
-            f"the surface. But again it is difficult to compare both different"
+            f"the surface. But again it is difficult to compare both "
             f" kind of leaves."
         )
 

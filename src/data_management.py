@@ -7,6 +7,9 @@ import joblib
 
 
 def download_dataframe_as_csv(df):
+    """
+    This function download the dataframe in csv format
+    """
 
     datetime_now = datetime.now().strftime("%d%b%Y_%Hh%Mmin%Ss")
     csv = df.to_csv().encode()

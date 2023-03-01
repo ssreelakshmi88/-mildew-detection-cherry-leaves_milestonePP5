@@ -19,8 +19,8 @@ def page_mildew_detector_body():
     st.header("Powdery Mildew Detection")
     st.success(
         f"**Business Requirement 2**\n"
-        f" The client is interested in predicting whether or not a cherry leaf"
-        f" contains powdery mildew")
+        f" The client is interested in predicting whether a cherry leaf"
+        f" contains powdery mildew or not.")
 
     st.write('---')
 
@@ -45,7 +45,7 @@ def page_mildew_detector_body():
 
 def make_live_predict(images_buffer):
     """
-    This function uploads images and make live predictions
+    This function uploads images and makes live predictions
 
     """
 
