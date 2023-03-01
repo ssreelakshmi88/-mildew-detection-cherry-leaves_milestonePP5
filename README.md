@@ -14,7 +14,7 @@ This app is designed based on a supervised, single-label, binary classification 
 
 ## Dataset Content
 
-- Image dataset is retrieved from Kaggle. In this project, we created a fictitious user story to apply predictive analytics which can be extrapolated to a real world situation.
+- Image dataset is retrieved from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves). In this project, we created a fictitious user story to apply predictive analytics which can be extrapolated to a real world situation.
 
 
 - The dataset contains more than 4000 images of healthy or diseased cherry leaves taken from Farmy & Foods crop fields. Diseased cherry leaves contain powdery mildew, a fungal disease that affects a wide range of plants. This is a serious concern for the company since it can compromise their product quality. 
@@ -32,7 +32,7 @@ The dataset is available at this link: https://www.kaggle.com/datasets/codeinsti
 
 ## Business Requirements
 
-- Farmy & Foods is facing a challenge with the presence of powdery mildew infection in their cherry plantation. Currently, leaves are manually checked to verify if a particular cherry tree is infected with powdery mildew or not. This time-consuming process takes around 30 minutes for each tree. The infected leaves are then treated with a specific compound to eliminate infection. The time required for this treatment is around 1 minute. With thousands of cherry trees located in multiple farms spread across the country, this detection process is highly inefficient.of cherry trees located in multiple farms across the country. As a result, this manual process is not scalable due to time spent in the manual process inspection.
+- Farmy & Foods is facing a challenge with the presence of powdery mildew infection in their cherry plantation. Currently, leaves are manually checked to verify if a particular cherry tree is infected with powdery mildew or not. This time-consuming process takes around 30 minutes for each tree. The infected leaves are then treated with a specific compound to eliminate infection. The time required for this treatment is around 1 minute. With thousands of cherry trees located in multiple farms spread across the country, this detection process is highly inefficient. As a result, this manual process is not scalable due to time spent in the manual process inspection.
 
 - To increase efficiency, the IT team suggested establishing a ML system that is capable of differentiating healthy or powdery mildew infected leaf based on images. This initiative, if successful, can be extended to rapidly detect and treat other infected crops. The dataset is a collection of cherry leaf images provided by Farmy & Foods, taken from their crops.
 
@@ -45,8 +45,6 @@ The client is interested in developing an app that can
 
 
 ## Hypothesis and how to validate?
-
-### Hypothesis
 
 - A leaf affected by powdery mildew exhibits several features that can differentiate them from healthy ones. Typical characteristics of infected leaf include display of particular marks/signs and morphological changes.  For example, leaves being light in color and roughly-circular. Additional indistinguishable feature is the presence of powder-looking patches on young and susceptible leaves. 
 
@@ -70,7 +68,7 @@ The client is interested in developing an app that can
 
 ### Business Requirement 2: Classification of images
 
-- As a client I want to predict if a given cherry leaf is a healthy or contains powdery mildew.
+- As a client I want to predict if a given cherry leaf is healthy or contains powdery mildew.
 
 - As a client I want to build a ML model and generate reports.
 
@@ -122,7 +120,7 @@ My dashboard consists of a side navigation bar linking to 5 different pages. The
 - General Information
    - Powdery mildew is a parasitic fungal disease caused by Podosphaera clandestina in cherry trees. Infected plants display white powdery spots on the leaves and stems. The lower leaves are the most affected.
    
-   - As the infection progresses, the spots get larger and denser and it may spread to other parts of plant.
+   - Powdery mildew is one of the plant diseases that can be identified easily. As the infection progresses, the spots get larger and denser and it may spread to other parts of plant.
    
    - The disease occurs mostly in high humid and moderate temperatures showing devastating effects on the life of the host plant reducing plant harvest.
    
@@ -200,10 +198,15 @@ My dashboard consists of a side navigation bar linking to 5 different pages. The
 **Label Frequencies for Train, Validation and Test Sets**
 
 •	Train - healthy: 1472 images
+
 •	Train - powdery_mildew: 1472 images
+
 •	Validation - healthy: 210 images
+
 •	Validation - powdery_mildew: 210 images
+
 •	Test - healthy: 422 images
+
 •	Test - powdery_mildew: 422 images
 
 
@@ -219,6 +222,10 @@ My dashboard consists of a side navigation bar linking to 5 different pages. The
 
 
 ![Generalized performance](https://user-images.githubusercontent.com/97182442/220571774-c9e52a95-09f5-42ae-8e08-a18c02500db6.jpg)
+
+The agreed accuracy criteria for the ML model performance with the client is atleast 97% accuracy. The generalized performance of the app is
+99.76%!.
+
 
 ## Technologies Used
 
@@ -281,6 +288,7 @@ Following are the list of libraries used in the project
   - Select the branch you want to deploy, then click Deploy Branch.
  - The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
 
+
 ## Credits
 
 - [Code Institute Malaria Walk Through Project](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/) : The code and design was taken from  Code-Institute-Org/WalkthroughProject01. I only made minor changes. This project helped me to understand the concept of Machine Learning and Data Analytics.
@@ -291,6 +299,7 @@ Following are the list of libraries used in the project
 
 - [alerebal/Powdery Mildew] (https://github.com/Code-Institute-Submissions/milestone-project-mildew-detection-in-cherry-leaves.git) in Cherry Leaves Detector: Readme guidance
 
+
 ### Content
 
 - Streamlit lessons by Code Institute
@@ -298,6 +307,9 @@ Following are the list of libraries used in the project
 - Streamlit documentation
 
 - Wikipedia for understanding powdery mildew fungal infection.
+
+- Code Institute Lecture and Videos 
+
 
 ### Acknowledgements
 
